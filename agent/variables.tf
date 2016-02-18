@@ -9,10 +9,6 @@ DESCRIPTION
 default = "/home/despot/coding/terraform/test_env/insecure-deployer.pub"
 }
 
-variable "key_name" {
-  description = "Desired name of AWS key pair"
-  default = "insecure-deployer" 
-}
 
 variable "aws_region" {
   description = "AWS region to launch servers."
@@ -28,3 +24,4 @@ variable "aws_amis" {
 
 variable "cidr_block" {}
 variable "vpc_id" {}
+variable "key_name" {}
