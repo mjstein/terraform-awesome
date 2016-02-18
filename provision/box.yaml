@@ -1,0 +1,7 @@
+---
+- hosts: aws1 
+  remote_user: root
+  tasks:
+
+    - name: check host name
+      shell: hostname
